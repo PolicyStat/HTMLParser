@@ -24,7 +24,7 @@ def get_description():
 
 setup(
     name="HTMLParser",
-    version="0.0.1",
+    version="0.0.2",
     description="Backport of HTMLParser from python 2.7",
     author="Jason Ward",
     author_email="jason.louard.ward@gmail.com",
@@ -43,5 +43,6 @@ setup(
         "License :: OSI Approved :: BSD License",
         "Operating System :: OS Independent",
     ],
+    py_modules=['HTMLParser'],
     long_description=get_description(),
 )
